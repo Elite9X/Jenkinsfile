@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/derrickSh43/autoScale' 
+                git branch: 'main', url: 'https://github.com/Elite9X/Jenkinsfile/blob/main/Jenkinsfile' 
             }
         }
         stage('Initialize Terraform') {
